@@ -14,7 +14,7 @@ const Services = () => {
         title="Nuestros Servicios"
         subtitle="SERVICIOS"
         description="Soluciones integrales para tus proyectos arquitectónicos y de construcción"
-        image="/lovable-uploads/dd5b857f-869b-4181-8f62-dee8ca786bb9.png"
+        image="/lovable-uploads/73acf21a-2750-4253-b92a-386545936754.png"
         height="medium"
       />
       

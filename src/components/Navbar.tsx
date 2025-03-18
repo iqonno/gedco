@@ -55,19 +55,12 @@ export function Navbar() {
     >
       <div className="section-container flex items-center justify-between">
         <Link to="/" className="relative z-10">
-          <div className="flex items-center">
-            <img 
-              src="/lovable-uploads/logo.jpeg" 
-              alt="Gedco Logo" 
-              className="h-10 w-auto" 
-            />
-            <span className={cn(
-              "ml-2 text-lg font-medium transition-colors",
-              isScrolled ? "text-gedco-black" : "text-white"
-            )}>
-              GEDCO
-            </span>
-          </div>
+          <span className={cn(
+            "text-xl font-semibold transition-colors",
+            isScrolled ? "text-gedco-black" : "text-white"
+          )}>
+            GEDCO
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
