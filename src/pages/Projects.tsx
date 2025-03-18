@@ -29,7 +29,7 @@ const Projects = () => {
         title="Nuestros Proyectos"
         subtitle="PORTAFOLIO"
         description="Descubre la calidad y el alcance de nuestro trabajo"
-        image="/lovable-uploads/12f7295d-9ce1-4374-bab0-73c17ee9b714.png"
+        image="/lovable-uploads/b6127048-8b7a-4404-85d7-03aa03dd79c0.png"
         height="medium"
       />
       

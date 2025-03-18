@@ -57,7 +57,7 @@ export function Navbar() {
         <Link to="/" className="relative z-10">
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/5e5aae76-c5b3-43e8-9b28-feed3d5038c5.png" 
+              src="/lovable-uploads/logo.jpeg" 
               alt="Gedco Logo" 
               className="h-10 w-auto" 
             />

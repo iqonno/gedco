@@ -1,7 +1,6 @@
 
 import { Hero } from "@/components/Hero";
 import { AnimatedSection } from "@/components/AnimatedSection";
-import { ContactForm } from "@/components/ContactForm";
 import { Mail, MapPin, Phone, Clock } from "lucide-react";
 
 const Contact = () => {
@@ -11,7 +10,7 @@ const Contact = () => {
         title="Contacto"
         subtitle="CONTÁCTANOS"
         description="Estamos listos para ayudarte con tu próximo proyecto"
-        image="/lovable-uploads/1de9f360-2a3d-4324-900e-a199973946e1.png"
+        image="/lovable-uploads/f61069bb-4b0b-4c99-be05-f3bf6278cf59.png"
         height="small"
       />
       
@@ -26,7 +25,7 @@ const Contact = () => {
                 ¿Listo para comenzar tu proyecto?
               </h2>
               <p className="text-gedco-dark-gray/80 mb-10">
-                Completa el formulario y nos pondremos en contacto contigo a la brevedad para discutir los detalles de tu proyecto y cómo podemos ayudarte.
+                Ponte en contacto con nosotros para discutir los detalles de tu proyecto y cómo podemos ayudarte.
               </p>
               
               <div className="space-y-6 mb-10">
@@ -89,24 +88,20 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              
-              <div className="rounded-sm overflow-hidden">
-                <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d933.5365415071564!2d-74.80885725875332!3d10.998187867464493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0a310e8827%3A0xd9b2fc51bbe7f30c!2sCra.%2048%20%23%2075-92%2C%20Nte.%20Centro%20Historico%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses-419!2sco!4v1742314296493!5m2!1ses-419!2sco" 
-                  width="100%" 
-                  height="300" 
-                  style={{ border: 0 }} 
-                  allowFullScreen 
-                  loading="lazy" 
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Ubicación de GEDCO"
-                ></iframe>
-              </div>
             </div>
             
-            <div className="bg-gray-50 p-8 rounded-sm">
-              <h3 className="text-2xl font-bold mb-6">Envíanos un mensaje</h3>
-              <ContactForm />
+            <div className="rounded-sm overflow-hidden h-full">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d933.5365415071564!2d-74.80885725875332!3d10.998187867464493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d0a310e8827%3A0xd9b2fc51bbe7f30c!2sCra.%2048%20%23%2075-92%2C%20Nte.%20Centro%20Historico%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses-419!2sco!4v1742314296493!5m2!1ses-419!2sco" 
+                width="100%" 
+                height="100%" 
+                style={{ border: 0, minHeight: "500px" }} 
+                allowFullScreen 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Ubicación de GEDCO"
+                className="w-full h-full"
+              ></iframe>
             </div>
           </div>
         </div>

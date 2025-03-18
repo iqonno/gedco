@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <Link to="/" className="flex items-center mb-4">
               <img
-                src="/lovable-uploads/5e5aae76-c5b3-43e8-9b28-feed3d5038c5.png"
+                src="/lovable-uploads/logo.jpeg"
                 alt="Gedco Logo"
                 className="h-10 w-auto"
               />
