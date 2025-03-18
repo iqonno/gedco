@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
@@ -11,12 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <Link to="/" className="flex items-center mb-4">
-              <img
-                src="/lovable-uploads/logo.jpeg"
-                alt="Gedco Logo"
-                className="h-10 w-auto"
-              />
-              <span className="ml-2 text-xl font-medium">GEDCO</span>
+              <span className="text-xl font-medium">GEDCO</span>
             </Link>
             <p className="text-white/70 mb-6 text-sm">
               Diseñamos y construimos con calidad e innovación, elevando cada proyecto a su máximo potencial.
